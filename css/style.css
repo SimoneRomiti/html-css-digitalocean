@@ -3,6 +3,7 @@ body{
   font-size: 16px;
 }
 
+/* HEADER_TOP */
 .header_top{
   height: 80px;
   line-height: 80px;
@@ -25,7 +26,6 @@ body{
   color: black;
   margin-right: 20px;
 }
-
 .menu a:hover{
   color: #006AFF;
   text-decoration: none;
@@ -44,10 +44,82 @@ body{
   background: #006AFF;
   color: white;
 }
+/* /HEADER_TOP */
 
 .header_bottom{
-  height: 30vh;
-  background: blue;
+  background-image: url("../img/animated.svg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+  padding: 40px 0;
+}
+
+.box{
+  padding: 1px 0;
+  background: white;
+  color: #031B4E;
+}
+.box h3{
+  font-weight: 700;
+}
+.box #start{
+  color: #006AFF;
+}
+
+.my-input{
+  width: 90%;
+  margin: auto;
+}
+
+.my-btnV2{
+  width: 90%;
+  margin: 5px auto;
+  background: #006AFF;
+  color: white;
+  font-weight: 700;
+}
+.my-btnV2:hover{
+  background: #1633FF;
+  color: white;
+}
+
+#google{
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  width: 90%;
+  margin: 5px auto 15px;
+  padding: 6px 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  position: relative;
+}
+#google a{
+    text-decoration: none;
+    color: grey;
+}
+#google i{
+  color: #006AFF;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#google:hover{
+  border: 1px solid #006AFF;
+  background: lightgrey;
+  cursor: pointer;
+}
+#google:hover a{
+  color: #006AFF;
+}
+
+.header_bottom p{
+  font-size: 14px;
+}
+.header_bottom p a{
+  text-decoration: none;
+  color: #006AFF;
 }
 
 
@@ -59,6 +131,14 @@ body{
 
   .burger{
     display: none;
+  }
+
+}
+
+@media screen and (max-width: 992px){
+
+  #title{
+    margin-top: 0;
   }
 
 }
