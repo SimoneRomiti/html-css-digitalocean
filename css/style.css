@@ -1,3 +1,8 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
 .header_top{
   height: 80px;
   line-height: 80px;
@@ -15,19 +20,30 @@
 .menu{
   display: none;
 }
-.menu span{
+.menu a{
   display: inline-block;
+  color: black;
+  margin-right: 20px;
 }
-.menu span:nth-of-type(2){
-  margin: 0 20px;
+
+.menu a:hover{
+  color: #006AFF;
+  text-decoration: none;
 }
+
+.menu i{
+  font-size: 16px;
+  color: grey;
+}
+
 .menu .my-btn{
-  margin-left: 20px;
   color: #006AFF;
   border: 1px solid #006AFF;
 }
-
-
+.my-btn:hover{
+  background: #006AFF;
+  color: white;
+}
 
 .header_bottom{
   height: 30vh;
