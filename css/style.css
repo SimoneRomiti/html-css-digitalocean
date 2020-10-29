@@ -49,10 +49,10 @@ body{
 /* HEADER_BOTTOM */
 .header_bottom{
   background-image: url("../img/animated.svg");
-  background-position: top;
+  background-position: bottom;
   background-size: cover;
   color: white;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .box{
@@ -160,10 +160,14 @@ body{
   color: black;
 }
 
+.deploy p{
+  margin-bottom: 40px;
+}
+
 .border{
   border-left: 3px solid lightgrey;
   padding-left: 5px;
-  margin-left: 15px;
+  margin-bottom: 30px;
 }
 
 .border span{
@@ -172,6 +176,15 @@ body{
 }
 .border span:not(:last-child){
   margin-bottom: 10px;
+}
+
+.deploy h4{
+  color: black;
+  font-weight: 700;
+}
+
+.info{
+  font-size: 14px;
 }
 
 
@@ -198,6 +211,10 @@ body{
     height: 125px;
   }
 
+  .border{
+    margin-left: 15px;
+  }
+
 }
 
 @media screen and (max-width: 768px){
@@ -205,5 +222,6 @@ body{
   .logos img{
     height: 125px;
   }
+
 
 }
