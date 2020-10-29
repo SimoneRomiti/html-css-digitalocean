@@ -278,6 +278,56 @@ h4{
 .border_bottom.different{
   border: 0;
 }
+/* /SERVICE */
+
+/* ROCKERBOX */
+.rockerbox{
+  background: #F3F5F9;
+  padding: 50px 0;
+}
+
+.rockerbox .aside{
+  font-size: 30px;
+  padding: 0 20px;
+  vertical-align: top;
+  line-height: 233px;
+}
+
+.rockerbox-container{
+  display: inline-block;
+  padding-top: 20px;
+  background: white;
+  width: 40%;
+  margin: auto;
+}
+
+.rockerbox img{
+  width: 50%;
+}
+
+.rockerbox h2{
+  margin-bottom: 40px;
+}
+
+.rockerbox p{
+  margin-top: 20px;
+}
+
+.author{
+  font-weight: 700;
+  color: black;
+  font-size: 14px;
+}
+
+.role, .read{
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.circle-container{
+  padding: 20px 0;
+}
+/* /ROCKERBOX */
 
 
 
@@ -326,8 +376,9 @@ h4{
     padding: 0 20px;
   }
 
-  .service span{
-    /* font-size: 12px; */
+  .rockerbox img{
+    width: 80%;
   }
+
 
 }
