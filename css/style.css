@@ -1,6 +1,12 @@
 body{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: #756992;
+}
+
+h2{
+  color: black;
+  font-weight: 700;
 }
 
 /* HEADER_TOP */
@@ -124,6 +130,7 @@ body{
 }
 /* /HEADER_BOTTOM */
 
+/* LOGOS */
 .logos{
   background: #F3F5F9;
   padding: 40px 0;
@@ -150,14 +157,12 @@ body{
   text-decoration: none;
   color: #1633FF;
 }
+/* /LOGOS */
 
+/* DEPLOY */
 .deploy{
   padding: 30px 0;
-  color: #756992
-}
-.deploy h2{
-  font-weight: 700;
-  color: black;
+  color: #756992;
 }
 
 .deploy p{
@@ -186,7 +191,43 @@ body{
 .info{
   font-size: 14px;
 }
+/* /DEPLOY */
 
+/* DEVELOPERS */
+.developers{
+  background: #F3F5F9;
+  padding: 40px 0;
+}
+
+.developers p{
+  margin: 20px 0 40px;
+}
+
+.developers img{
+  width: 50%;
+}
+
+.developers i{
+  font-size: 30px;
+  padding: 0 30px;
+}
+
+.developers #servers{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.circle{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #006AFF;
+}
+.circle:first-of-type{
+  background: #006AFF;
+}
 
 @media screen and (min-width: 1200px){
 
@@ -215,12 +256,22 @@ body{
     margin-left: 15px;
   }
 
+  .developers p,
+  .developers #servers{
+    margin-bottom: 60px;
+  }
+
 }
 
 @media screen and (max-width: 768px){
 
   .logos img{
     height: 125px;
+  }
+
+  .developers i{
+    font-size: 20px;
+    padding: 0 20px;
   }
 
 
