@@ -7,10 +7,15 @@ body{
 h2{
   color: black;
   font-weight: 700;
+  margin-top: 0;
 }
 h4{
   color: black;
   font-weight: 700;
+}
+
+h5{
+  margin-top: 0;
 }
 
 /* HEADER_TOP */
@@ -137,7 +142,7 @@ h4{
 /* LOGOS */
 .logos{
   background: #F3F5F9;
-  padding: 40px 0 50px;
+  padding: 40px 0;
 }
 .logos h5{
   font-weight: 700;
@@ -165,7 +170,7 @@ h4{
 
 /* DEPLOY */
 .deploy{
-  padding: 50px 0 30px;
+  padding: 50px 0;
   color: #756992;
 }
 
@@ -190,6 +195,11 @@ h4{
   font-size: 14px;
 }
 
+.info.no-margin{
+  margin-bottom: 0;
+}
+
+
 .deploy img{
   height: 38px;
 }
@@ -198,7 +208,7 @@ h4{
 /* DEVELOPERS */
 .developers{
   background: #F3F5F9;
-  padding: 40px 0 60px;
+  padding: 40px 0;
 }
 
 .developers p{
@@ -234,7 +244,7 @@ h4{
 
 /* FEATURE */
 .feature{
-  padding: 20px 0 30px;
+  padding: 60px 0;
 }
 
 .feature h2{
@@ -244,6 +254,10 @@ h4{
 .feature img{
   margin-top: 15px;
 }
+
+.feature p{
+  margin-bottom: 0;
+}
 /* /FEATURE */
 
 /* SERVICE */
@@ -251,8 +265,9 @@ h4{
   background-image: url('../img/bg-map.svg');
   background-color: #031B4E;
   background-size: cover;
+  background-position: center;
   color: white;
-  padding: 50px 0;
+  padding: 50px 0 30px;
 }
 .service h2{
   color: white;
@@ -325,10 +340,30 @@ h4{
 }
 
 .circle-container{
-  padding: 20px 0;
+  padding-top: 20px;
 }
 /* /ROCKERBOX */
 
+/* GET STARTED */
+.get-started{
+  background: #0164FF;
+  padding: 40px 0;
+}
+
+.get-started h2{
+  color: white;
+}
+
+.my-btn-V2{
+  margin-top: 15px;
+  color: #006AFF;
+  border: 1px solid #006AFF;
+  padding: 10px 20px;
+}
+.my-btn-V2:hover{
+  background: #CBD4E4;
+  color: #006AFF;
+}
 
 
 @media screen and (min-width: 1200px){
@@ -361,6 +396,10 @@ h4{
   .developers p,
   .developers #servers{
     margin-bottom: 60px;
+  }
+
+  .info.no-margin{
+    margin-bottom: 40px;
   }
 
 }
