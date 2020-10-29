@@ -183,7 +183,7 @@ h4{
   color: #948E98;
 }
 .border span:not(:last-child){
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .info{
@@ -251,8 +251,34 @@ h4{
   background-image: url('../img/bg-map.svg');
   background-color: #031B4E;
   background-size: cover;
-  height: 70vh;
+  color: white;
+  padding: 50px 0;
 }
+.service h2{
+  color: white;
+  margin-bottom: 40px;
+}
+
+.service a{
+  color: #02d7d6;
+}
+.service a:hover{
+  text-decoration: none;
+  color: #122DEF;
+}
+
+.first-block{
+  margin-bottom: 20px;
+}
+
+.border_bottom{
+  border-bottom: 1px solid white;
+  padding: 5px 15px;
+}
+.border_bottom.different{
+  border: 0;
+}
+
 
 
 @media screen and (min-width: 1200px){
@@ -278,7 +304,7 @@ h4{
   }
 
   .border{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-bottom: 40px;
   }
 
@@ -298,6 +324,10 @@ h4{
   .developers i{
     font-size: 20px;
     padding: 0 20px;
+  }
+
+  .service span{
+    /* font-size: 12px; */
   }
 
 }
