@@ -81,9 +81,11 @@ h5{
   background: white;
   color: #031B4E;
 }
+
 .box h3{
   font-weight: 700;
 }
+
 .box #start{
   color: #006AFF;
 }
@@ -150,6 +152,7 @@ h5{
   background: #F3F5F9;
   padding: 40px 0;
 }
+
 .logos h5{
   font-weight: 700;
   color: grey;
@@ -208,7 +211,6 @@ h5{
 .info.no-margin{
   margin-bottom: 0;
 }
-
 
 .deploy img{
   height: 38px;
@@ -280,6 +282,7 @@ h5{
   color: white;
   padding: 50px 0 30px;
 }
+
 .service h2{
   color: white;
   margin-bottom: 40px;
@@ -476,8 +479,6 @@ footer a:hover{
 /* /FOOTER */
 
 
-
-
 @media screen and (max-width: 992px){
 
   #title{
@@ -502,7 +503,6 @@ footer a:hover{
   }
 
 }
-
 
 
 @media screen and (max-width: 768px){
