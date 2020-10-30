@@ -193,11 +193,15 @@ h5{
   padding-left: 5px;
 }
 
-.border span{
-  display: block;
+.border ul{
+  padding-left: 0;
+}
+
+.border li{
+  list-style: none;
   color: #948E98;
 }
-.border span:not(:last-child){
+.border li:not(:last-child){
   margin-bottom: 15px;
 }
 
@@ -242,6 +246,7 @@ h5{
 
 .circle{
   display: inline-block;
+  padding: 0;
   height: 10px;
   width: 10px;
   border-radius: 50%;
