@@ -30,7 +30,6 @@ h5{
   left: 0;
   right: 0;
   z-index: 2;
-
 }
 .header_top img{
   height: 30px;
@@ -378,6 +377,59 @@ h5{
 }
 /* /GET STARTED */
 
+/* CHATBOX */
+.chatbox{
+  width: 100%;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 2
+}
+
+.text{
+  display: inline-block;
+  background: #282C36;
+  color: white;
+  width: 25%;
+  padding: 10px 10px;
+  margin-right: 10px;
+  vertical-align: bottom;
+  border-radius: 5px;
+  position: relative;
+}
+
+.text i{
+  font-size: 26px;
+  color: #282C36;
+  position: absolute;
+  bottom: 8px;
+  right: -8px;
+}
+
+.shark{
+  display: inline-block;
+  position: relative;
+}
+
+.chatbox img{
+  height: 60px;
+  border-radius: 5px;
+}
+
+.notification{
+  width: 35px;
+  height: 35px;
+  line-height: 25px;
+  color: white;
+  border-radius: 50%;
+  border: 5px solid white;
+  background: red;
+  position: absolute;
+  top: -20%;
+  right: -20%;
+}
+/* /CHATBOX */
+
 /* FOOTER */
 footer{
   background: #010E28;
@@ -437,7 +489,6 @@ footer a:hover{
   }
 
   .border{
-    /* margin-left: 15px; */
     margin-bottom: 40px;
   }
 
@@ -476,6 +527,14 @@ footer a:hover{
 
 }
 
+
+@media screen and (max-width: 450px){
+
+  .text{
+    width: 42%;
+  }
+
+}
 
 
 @media screen and (max-width: 324px){
