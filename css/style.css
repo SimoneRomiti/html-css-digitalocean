@@ -23,6 +23,14 @@ h5{
 .header_top{
   height: 80px;
   line-height: 80px;
+  background: white;
+  box-shadow: rgba(3,27,78,0.5) 0px 2px 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+
 }
 .header_top img{
   height: 30px;
@@ -64,6 +72,7 @@ h5{
 
 /* HEADER_BOTTOM */
 .header_bottom{
+  margin-top: 80px;
   background-image: url("../img/animated.svg");
   background-position: bottom;
   background-size: cover;
