@@ -42,25 +42,22 @@ h5{
   line-height: 80px;
 }
 
-.menu{
-  display: none;
-}
-.menu a{
+.visible-lg a{
   display: inline-block;
   color: black;
   margin-right: 20px;
 }
-.menu a:hover{
+.visible-lg a:hover{
   color: #006AFF;
   text-decoration: none;
 }
 
-.menu i{
+.visible-lg i{
   font-size: 16px;
   color: grey;
 }
 
-.menu .my-btn{
+.visible-lg .my-btn{
   color: #006AFF;
   border: 1px solid #006AFF;
 }
@@ -381,7 +378,7 @@ h5{
 }
 /* /GET STARTED */
 
-
+/* FOOTER */
 footer{
   background: #010E28;
   padding: 40px 0;
@@ -424,19 +421,10 @@ footer a:hover{
 .margin{
   margin-top: 20px;
 }
+/* /FOOTER */
 
 
-@media screen and (min-width: 1200px){
 
-  .menu{
-    display: block;
-  }
-
-  .burger{
-    display: none;
-  }
-
-}
 
 @media screen and (max-width: 992px){
 
@@ -464,6 +452,8 @@ footer a:hover{
 
 }
 
+
+
 @media screen and (max-width: 768px){
 
   .logos img{
@@ -484,8 +474,8 @@ footer a:hover{
     width: 80%;
   }
 
-
 }
+
 
 
 @media screen and (max-width: 324px){
