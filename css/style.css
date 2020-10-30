@@ -183,10 +183,6 @@ h5{
   color: #756992;
 }
 
-.deploy p{
-  margin-bottom: 40px;
-}
-
 .border{
   border-left: 3px solid lightgrey;
   padding-left: 5px;
@@ -206,9 +202,10 @@ h5{
 
 .info{
   font-size: 14px;
+  margin-bottom: 40px;
 }
 
-.info.no-margin{
+.info[class*="no-margin"]{
   margin-bottom: 0;
 }
 
@@ -265,7 +262,7 @@ h5{
 }
 
 .feature img{
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .feature p{
@@ -498,7 +495,7 @@ footer a:hover{
     margin-bottom: 60px;
   }
 
-  .info.no-margin{
+  .info.no-margin-secondlast{
     margin-bottom: 40px;
   }
 
@@ -528,13 +525,13 @@ footer a:hover{
 }
 
 
-@media screen and (max-width: 450px){
+/* @media screen and (max-width: 450px){
 
   .text{
     width: 42%;
   }
 
-}
+} */
 
 
 @media screen and (max-width: 324px){
