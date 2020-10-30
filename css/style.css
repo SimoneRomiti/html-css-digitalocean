@@ -465,6 +465,11 @@ footer a:hover{
     height: 125px;
   }
 
+  .first-block,
+  .second-block{
+    font-size: 14px;
+  }
+
   .developers i{
     font-size: 20px;
     padding: 0 20px;
@@ -474,5 +479,15 @@ footer a:hover{
     width: 80%;
   }
 
+
+}
+
+
+@media screen and (max-width: 324px){
+
+  .first-block,
+  .second-block{
+    font-size: 12px;
+  }
 
 }
