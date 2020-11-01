@@ -76,6 +76,12 @@ h5{
   padding: 60px 0;
 }
 
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
 .box{
   padding: 1px 0;
   background: white;
@@ -139,7 +145,7 @@ h5{
 }
 
 .header_bottom p{
-  font-size: 14px;
+  font-size: 18px;
 }
 .header_bottom p a{
   text-decoration: none;
@@ -203,6 +209,10 @@ h5{
 .border li:not(:last-child){
   margin-bottom: 15px;
 }
+.border li:hover{
+  cursor: pointer;
+  color: #1633FF;
+}
 
 .info{
   font-size: 14px;
@@ -234,7 +244,10 @@ h5{
 
 .developers i{
   font-size: 30px;
-  padding: 0 30px;
+  margin: 0 30px;
+}
+.developers i:hover{
+  cursor: pointer;
 }
 
 .developers #servers{
@@ -270,7 +283,15 @@ h5{
 }
 
 .feature p{
-  margin-bottom: 0;
+  margin-bottom: 15px;
+}
+
+.feature a{
+  color: #337ab7;
+}
+.feature a:hover{
+  text-decoration: none;
+  color: #1633FF;
 }
 /* /FEATURE */
 
@@ -280,8 +301,12 @@ h5{
   background-color: #031B4E;
   background-size: cover;
   background-position: center;
-  color: white;
+  color: #8E99B0;
   padding: 50px 0 30px;
+}
+
+.code{
+  color: white;
 }
 
 .service h2{
@@ -318,9 +343,12 @@ h5{
 
 .rockerbox .aside{
   font-size: 30px;
-  padding: 0 20px;
+  margin: 0 30px;
   vertical-align: top;
   line-height: 233px;
+}
+.rockerbox .aside:hover{
+  cursor: pointer;
 }
 
 .rockerbox-container{
@@ -356,6 +384,10 @@ h5{
 
 .circle-container{
   padding-top: 20px;
+  font-size: 0;
+}
+.circle:not(:last-child){
+  margin-right: 7px;
 }
 /* /ROCKERBOX */
 
@@ -523,7 +555,11 @@ footer a:hover{
 
   .developers i{
     font-size: 20px;
-    padding: 0 20px;
+    margin: 0 20px;
+  }
+
+  .developers img{
+    width: 40%;
   }
 
   .rockerbox img{
